@@ -1,0 +1,22 @@
+// $textColor: lightblue;
+// $secondaryColor: grey;
+
+// body {
+//   $primary-color: salmon;
+//   background-color: $primary-color;
+// }
+
+// h1 {
+//   color: $primary-color;
+// }
+
+//map
+
+$alert: (
+  'danger': red,
+  'success': green,
+  'warning': orange,
+);
+h1 {
+  color: map-get($alert, 'warning');
+}
